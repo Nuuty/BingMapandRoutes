@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Map.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Map"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="tbOutputText" HorizontalAlignment="Left" Margin="75,245,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <!--<Maps:MapControl1
+            x:Name="Map"
+            MapServiceToken="Ktkp6HLxn7P0k9ZXjNk5~xg8PB2ELRceZuBVhSx3TNw~AvEqNibDD9mn2tD1QZEcHfcGN6bNWBNaxOxOkhMIg_Iqla1KNrtyNWe12329eyaX"
+            ZoomInteractionMode="GestureAndControl"
+            LandmarksVisible="True"
+            IsRightTapEnabled="true"
+            
+            
+           />-->
+        
+
+
+    </Grid>
+</Page>
